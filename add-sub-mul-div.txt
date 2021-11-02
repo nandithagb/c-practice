@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+  int num1,num2;
+  printf("enter two numbers\n");
+  scanf("%d%d",&num1,&num2);
+  int add =num1+num2;
+  int sub=num1-num2;
+  int mul=num1*num2;
+float divi=(float)num1/(float)num2;
+int mod=num1%num2;
+  printf("%d+%d=%d\n",num1,num2,add);
+  printf("%d-%d=%d\n",num1,num2,sub);
+  printf("%d*%d=%d\n",num1,num2,mul);
+  printf("%d/%d=%f\n",num1,num2,divi);
+  printf("%d %% %d=%d\n",num1,num2,mod);
+  return 0;
+}
+
